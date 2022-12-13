@@ -1,0 +1,185 @@
+*{
+    background-color: antiquewhite;
+}
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: auto;
+   
+}
+#header {
+    width: 100%;
+    height: 20px;
+    padding:0px 30px;
+    margin-top:33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    /* background-color: #f0cd95c0; */
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px;
+    
+}
+
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+
+
+#banner {
+    width: 100%;
+    background-image :url("assets/banner_1.png");
+    /* background-image: url("assets/banner_1.jpg"); */
+    height: 463px;
+    margin-top:40px;
+    display: flex;
+    padding:0px 133px;
+    position:relative;
+}
+#banner  .box-left h2 {
+    font-size:48px;
+    margin-top:75px;
+    color:rgb(89, 56, 4);
+}
+
+
+
+
+.search{
+	float: right;
+	/* margin: 30px 60px 0 0; */
+}
+.search-button {
+	padding: 10px;
+	background: rgb(254, 162, 39);
+	border: 0;
+	border-radius: 0 15px 15px 0;
+	text-decoration: none;
+	margin-left: -3px;
+	/* color: white; */
+    color: #1d1a1a;
+	border-style: inset;
+}
+.search-box{
+	padding: 10px;
+	border: 0;
+	border-radius: 15px 0 0  15px;
+	width:auto;
+	text-indent: 10px;
+}
+
+
+
+ 
+ #saleoff {
+    width: 100%;
+    display: flex;
+    height: 110px;
+
+
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#saleoff .box-left  {
+    width: 110px;
+    height: 110px;
+}
+
+#saleoff .box-right{
+    width: auto;
+    height: 110px;
+}
+#saleoff .box-left {
+    background:#3e413e;
+    text-align: center;
+    min-height: 110px;
+} 
+
+ #saleoff .box-right h1 {
+    padding-top:38px;
+}
+
+#saleoff .box-left img{
+    display: block;
+    margin:0px auto;
+    margin-top:5px;
+}
+
+#saleoff .box-right ul li{
+    display: list-item;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#nav {
+    width: 200px;
+    height: 110px;
+}
+#nav ul li {
+    margin-left: 5px;
+    display: list-item;
+    padding: 3px;
+    padding-top: 2px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#list-saleoff .box-left img{
+    display: block;
+    margin:0px auto;
+    margin-top:5px;
+}
+
+#list-saleoff #nav {
+    text-align: center;
+    /* color:#fff; */
+    color:rgb(66, 54, 3);
+    /* font-weight: bold; */
+    margin-top:10px;
+}
+
+
+
+/* .container{
+    clear: both;
+    overflow: auto;
+}
+
+nav{float:right;}
+
+.imgabout img{float:left}
+
+a{
+    text-decoration: none;
+}
+
+.container ul li {
+    display: list-item;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+
+} */

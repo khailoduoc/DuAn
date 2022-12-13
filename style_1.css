@@ -1,0 +1,123 @@
+
+/* body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(44, 43, 43, 0.808);
+} */
+/* .trangchu
+{
+    max-width: 1000px;
+    margin: 0px auto;
+} */
+
+.trangchu>header
+{
+    width: 1000px;
+    margin: 0px auto;
+    background-image: url('');
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+
+.trangchu>nav
+{
+    line-height: 40px;
+    /* background-color: #ff0088d0; */
+    background-color: #f0ca95d0;
+    color: whitesmoke;
+    text-align: center;
+    font-variant: small-caps;
+}
+@-webkit-keyframes my {
+    0% { color: #000000; } 
+    50% { color: rgb(255, 255, 255);  } 
+    100% { color: #000000;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #000000; } 
+    50% { color: rgb(255, 255, 255);  } 
+    100% { color: #000000;  } 
+}
+@-o-keyframes my { 
+    0% { color: #000000; } 
+    50% { color: rgb(255, 254, 254);  } 
+    100% { color: #000000;  } 
+}
+@keyframes my { 
+    0% { color: #000000; } 
+    50% { color: rgb(255, 255, 255);  } 
+    100% { color: #000000;  } 
+} 
+
+.trangchu>footer
+{
+   
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: initial;
+    clear: both;
+    /* background:rgba(255, 0, 136, 0.816); */
+    background-color: #f0ca95d0;
+    font-size:24px;
+    font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+}
+
+.trangchu>nav>a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.trangchu>nav>a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+}
+.bullet a
+{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 1;
+    border-bottom: 1px dotted white;
+    color: black;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 15px;
+}
+.bullet a:hover{
+    /* background-color: #ff0088d0; */
+    background-color: #f0ca95d0;
+}
+.bullet{
+    overflow: hidden;
+}
+
+
+.bullet li:hover
+{
+    list-style: none;
+    border-bottom: white;
+    /* background-color: #ff0088d0; */
+    background-color: #f0ca95d0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bullet li a:hover{
+    color: white;
+}
+
+iframe[name=page]
+{
+    width: 100%;
+    min-width: 20px;   
+    
+}
